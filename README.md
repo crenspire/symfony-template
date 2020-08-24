@@ -3,10 +3,8 @@ Crenspire: Symfony Practical.
 
 Installation
 ------------
- - Clone or fork the project from Crenspire Symfony template [link][1].
-     ```bash
-     git clone https://github.com/crenspire/symfony-template.git
-     ```
+ - Fork the project from Crenspire Symfony template [link][1].
+ - Clone it in your system.
  - Run `cd symfony-template`.
  - Run `composer install`.
  - Use mysql as database in your `.env` file.
