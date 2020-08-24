@@ -7,6 +7,7 @@ Installation
      ```bash
      git clone https://github.com/crenspire/symfony-template.git
      ```
+ - Run `cd symfony-template`.
  - Run `composer install`.
  - Use mysql as database in your `.env` file.
      ```dotenv
@@ -26,7 +27,7 @@ Installation
     ```
  - Run webpack server:
     ```bash
-    yarn dev-server
+    yarn watch
     ```
 
 [1]: https://github.com/crenspire/symfony-template

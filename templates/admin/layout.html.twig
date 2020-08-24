@@ -14,13 +14,13 @@
 
 {% block header_navigation_links %}
     <li>
-        <a href="{{ path('admin_post_index') }}">
-            <i class="fa fa-list-alt" aria-hidden="true"></i> {{ 'menu.post_list'|trans }}
+        <a href="{{ path('admin_event_index') }}">
+            <i class="fa fa-list-alt" aria-hidden="true"></i> Event List
         </a>
     </li>
     <li>
-        <a href="{{ path('blog_index') }}">
-            <i class="fa fa-home" aria-hidden="true"></i> {{ 'menu.back_to_blog'|trans }}
+        <a href="{{ path('event_index') }}">
+            <i class="fa fa-home" aria-hidden="true"></i> Events
         </a>
     </li>
 {% endblock %}
