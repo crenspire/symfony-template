@@ -4,6 +4,9 @@ Crenspire: Symfony Practical.
 Installation
 ------------
  - Clone the project from Crenspire Symfony template [link][1].
+     ```bash
+     git clone https://github.com/crenspire/symfony-template.git
+     ```
  - Run `composer install`.
  - Use mysql as database in your `.env` file.
      ```dotenv
