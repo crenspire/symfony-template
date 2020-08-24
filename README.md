@@ -3,7 +3,7 @@ Crenspire: Symfony Practical.
 
 Installation
 ------------
- - Clone the project from Crenspire Symfony template [link][1].
+ - Clone or fork the project from Crenspire Symfony template [link][1].
      ```bash
      git clone https://github.com/crenspire/symfony-template.git
      ```
