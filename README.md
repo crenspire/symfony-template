@@ -18,14 +18,12 @@ Installation
     $ php bin/console doctrine:schema:create
     $ php bin/console doctrine:fixtures:load
     ```
- - Run `yarn install`.
+ - Run `yarn install` or `npm install`.
  - Run Symfony server:
     ```bash
     php -S localhost:8000/ -t public/
     ```
  - Run webpack server:
-    ```bash
-    yarn watch
-    ```
+    `yarn watch` or `npm run watch`.
 
 [1]: https://github.com/crenspire/symfony-template
