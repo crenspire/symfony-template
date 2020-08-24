@@ -14,9 +14,8 @@ use Doctrine\ORM\Mapping as ORM;
 use Symfony\Bridge\Doctrine\Validator\Constraints\UniqueEntity;
 
 /**
- * @ORM\Entity(repositoryClass="App\Repository\PostRepository")
- * @ORM\Table(name="symfony_demo_post")
- * @UniqueEntity(fields={"slug"}, errorPath="title", message="post.slug_unique")
+ * @ORM\Entity(repositoryClass="App\Repository\EventRepository")
+ * @ORM\Table(name="event")
  *
  * Defines the properties of the Post entity to represent the blog posts.
  *
